@@ -13,16 +13,18 @@ PicsParler is a social web application built with Django, designed for sharing a
 ## Project Overview
 
 PicsParler is a platform where users can:
+-bookmark pictures from other websites
 - Share pictures.
 - Follow other users and see their posts.
+- see the view count on posts
 - Like and comment on pictures.
-- Receive notifications for activities on their posts.
+- Receive notifications for activities on their posts and that of their followers.
 
 ## Features
 
 - User Authentication (Sign Up, Login, Logout)
 - Profile Creation and Management
-- Picture Uploading
+- Picture Uploading through bookmarking
 - Commenting on Pictures
 - Liking Pictures
 - Following Users
@@ -34,14 +36,14 @@ PicsParler is a platform where users can:
 ### Prerequisites
 
 - Python 3.8+
-- Django 3.2+
+- Django 4.0+
 - pip (Python package installer)
 
 ### Steps
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/PicsParler.git
+    git clone 
     cd PicsParler
     ```
 
@@ -102,8 +104,9 @@ We welcome contributions! Please follow these steps to contribute:
 5. Open a pull request.
 
 Please ensure your code follows our coding standards and includes relevant tests.
+Front-end developers help build a user friendly interface
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Working on it!.
 
