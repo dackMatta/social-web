@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/port.css' %}" rel="stylesheet" >
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+          <nav>
+            <label for="header"><h3>PicsParler</h3></label>
+            <img src="image 8.jpg" class="logo">
+            <ul>
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="{% url 'login' %}">Sign-in</a></li>
+              <li><a href="#contact">Contacts</a></li>
+            </ul>
+          </nav>
+          <div class="header-text">
+            <h1>Welcome to <span>PicsParler</span><br> a picture sharing website</h1>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
